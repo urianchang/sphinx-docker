@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  sphinx-doc:
+    container_name: sphinx-doc
+    hostname: sphinx-doc
+    image: sphinx-doc:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/sphinx-doc
+    ports:
+      - 8000:8000
