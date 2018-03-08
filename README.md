@@ -1,7 +1,7 @@
 # Sphinx Documentation built with Docker
 
 This repository serves as a reference for building [Sphinx](http://www.sphinx-doc.org/en/stable/)
-documentation with [Docker](https://www.docker.com/).
+documentation with a [Docker](https://www.docker.com/) container.
 
 ## Prerequisites
 Your system needs to have the following tool(s) installed:
